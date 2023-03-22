@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <title> Meu site </title>
+
+    <style>
+        body{
+            background-color:darkgrey;
+            color: black;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color:darkslategrey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Hello World </h1>
+    <p> Be gone curse </p>
+
+    <script>
+       var nome = window.prompt ("Digite seu nome: ");
+       document.write (`Seu nome tem ${nome.length} letras <br/>`);
+       document.write (`Seu nome com letras maiúsculas é ${nome.toLocaleUpperCase()} <br/>`); //converte string para maiúsculo
+       document.write (`Seu nome com letras minúsculas é ${nome.toLocaleLowerCase()} <br/>`); //converte string para minúsculo
+       // ternário = teste? True:False
+    </script>    
+</body>
+</html>
